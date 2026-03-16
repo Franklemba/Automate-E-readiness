@@ -1,0 +1,1 @@
+CREATE POLICY "Anyone can select leads" ON public.leads FOR SELECT USING (true);
